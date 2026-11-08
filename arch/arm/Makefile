@@ -11,7 +11,7 @@
 # Copyright (C) 1995-2001 by Russell King
 
 # Ensure linker flags are correct
-LDFLAGS		:= -m armelf_linux_eabi
+LDFLAGS		:= -m armelf
 
 LDFLAGS_vmlinux	:= --no-undefined -X -O2
 ifeq ($(CONFIG_CPU_ENDIAN_BE8),y)

@@ -1,6 +1,6 @@
 #!/bin/bash
 #path to gcc toolchain
-TOOLCHAIN="/home/me/x-tools/arm-unknown-linux-gnueabihf/bin/arm-unknown-linux-gnueabihf-"
+TOOLCHAIN="/home/ulrichsiegmund/x-tools/arm-unknown-eabi/bin/arm-unknown-eabi-"
 
 #I'm gonna test using clang later
 #export LLVM=1
